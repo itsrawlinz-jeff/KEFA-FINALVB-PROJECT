@@ -32,10 +32,10 @@ Partial Class Form1
         Me.Label1 = New System.Windows.Forms.Label()
         Me.CMDSCHDL = New System.Windows.Forms.Button()
         Me.Panel3 = New System.Windows.Forms.Panel()
+        Me.Button2 = New System.Windows.Forms.Button()
         Me.Button1 = New System.Windows.Forms.Button()
         Me.PictureBox1 = New System.Windows.Forms.PictureBox()
         Me.PictureBox2 = New System.Windows.Forms.PictureBox()
-        Me.Button2 = New System.Windows.Forms.Button()
         Me.Panel1.SuspendLayout()
         CType(Me.PictureBox3, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.Panel3.SuspendLayout()
@@ -88,7 +88,7 @@ Partial Class Form1
         Me.CMDTICCANCEL.Name = "CMDTICCANCEL"
         Me.CMDTICCANCEL.Size = New System.Drawing.Size(170, 46)
         Me.CMDTICCANCEL.TabIndex = 3
-        Me.CMDTICCANCEL.Text = "TICKET CANCELLATION"
+        Me.CMDTICCANCEL.Text = "THANK YOU"
         Me.CMDTICCANCEL.UseVisualStyleBackColor = False
         '
         'CMDQUIT
@@ -186,6 +186,16 @@ Partial Class Form1
         Me.Panel3.Size = New System.Drawing.Size(200, 632)
         Me.Panel3.TabIndex = 7
         '
+        'Button2
+        '
+        Me.Button2.BackColor = System.Drawing.Color.Fuchsia
+        Me.Button2.Location = New System.Drawing.Point(11, 499)
+        Me.Button2.Name = "Button2"
+        Me.Button2.Size = New System.Drawing.Size(169, 33)
+        Me.Button2.TabIndex = 8
+        Me.Button2.Text = "END PAGE"
+        Me.Button2.UseVisualStyleBackColor = False
+        '
         'Button1
         '
         Me.Button1.BackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer), CType(CType(255, Byte), Integer))
@@ -217,16 +227,6 @@ Partial Class Form1
         Me.PictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize
         Me.PictureBox2.TabIndex = 9
         Me.PictureBox2.TabStop = False
-        '
-        'Button2
-        '
-        Me.Button2.BackColor = System.Drawing.Color.Fuchsia
-        Me.Button2.Location = New System.Drawing.Point(11, 499)
-        Me.Button2.Name = "Button2"
-        Me.Button2.Size = New System.Drawing.Size(169, 33)
-        Me.Button2.TabIndex = 8
-        Me.Button2.Text = "END PAGE"
-        Me.Button2.UseVisualStyleBackColor = False
         '
         'Form1
         '

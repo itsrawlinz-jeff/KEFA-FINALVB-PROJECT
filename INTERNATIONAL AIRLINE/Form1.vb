@@ -54,4 +54,9 @@ Public Class Form1
 
 
     End Sub
+
+    Private Sub CMDTICCANCEL_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles CMDTICCANCEL.Click
+        Form9.Show()
+
+    End Sub
 End Class
